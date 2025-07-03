@@ -1,0 +1,211 @@
+/* body */
+body{
+    background-color:#F5F6F4 !important;
+  }
+  /* body end */
+  
+  
+  select{
+    width: 70rem;
+    border-radius: 4rem;
+    background-color: #EBECE9;
+  }
+
+
+  .review{
+   justify-content: center;
+  margin-left: 15rem;
+  margin-top: 2rem;
+  }  
+  
+  /* images */
+  
+  #logo{
+    font-family:math !important;
+    font-weight: bold;
+    color:#721121;
+    
+  }
+  /* images end */
+  
+  
+  /* navbar */
+  .nav-item{
+  margin-left: 2rem;
+  }
+  #navbg{
+    height:fit-content !important;
+    background-color: white;
+  }
+  .d-flex{
+    width:60% !important;
+    margin-left: 5% !important;
+    
+   
+  }
+  .help{
+    margin-left: 10rem;
+    height:8rem;
+    width:10rem;
+    background-color: #721121;
+    color:white;
+    font-size: 20px;
+    font-family: math;
+  }
+  .form-control{
+    border-radius: 2rem !important;
+    background-color: #EBECE9 !important;
+    border:solid,white,5px!important;
+    height: 4rem !important;
+  }
+  .btn{
+    background-color:white!important;
+    border-radius: 2rem !important;
+    margin-left: 2rem;
+    border:solid,3px,#721121 !important;
+  }
+  .btn:hover{
+    color:white !important;
+    background-color: #721121 !important;
+  }
+  .navbar-toggler{
+    border:none !important;
+  }
+  #login:hover{
+    color:white !important;
+    background-color: #721121 !important;
+  }
+  #signup:hover{
+    color:white !important;
+    background-color: #721121 !important;
+  }
+  /* navbar end */
+    
+    /* MIDDLE PART */
+  
+  /* HEADING */
+  
+  .heading{
+      display: flex;
+      margin-left: 12vw;
+  }
+  .name{
+      font-size: xxx-large;
+      font-weight: 600;
+      color:  #721121;
+  }
+  
+  .rating{
+      font-size: x-large;
+      font-weight: 400;
+      color: #dcc13d;
+      margin-top: 2.5rem;
+      margin-left: 2rem;
+  }
+  
+  
+  /* JAIPUR IMAGE */
+  .middle-part{
+      display: flex;
+      margin-top: 3.5vh;
+      margin-left: 12vw;
+  }
+  .image{
+      width: 40%;
+  }
+  .jaipur_image{
+      width: 90%;
+      height: 40rem;
+      border-radius: 35px;
+  }
+  .comment-box{
+      width: 45%;
+      border: 2px solid black;
+      height:40rem ;
+      border-radius: 30px;
+  }
+  .comment{
+  margin-top: 2rem;
+  margin-left: 2rem;
+  font-size: large;
+  font-weight: 600;
+  }
+  
+  /* MIDDLE PART */
+  
+  .images{
+      justify-content: space-around;
+      margin-top: 8rem;
+      background-color: #F6CACA;
+      display: flex;
+      height: 45vh;
+  }
+  .image1,.image2,.image3{
+      width: 30%;
+      margin-top: 2rem;
+      height: 27rem !important;
+      border-radius: 20px;
+      border: 3px solid white;
+  }
+  .image1{
+      background-image: url('ImageBase/mandal\ pond.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .image2{
+      background-image: url('ImageBase/sanganer.avif');
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .image3{
+      background-image: url('ImageBase/Azad\ Market.webp');
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .name1{
+      color: black;
+      font-size: xx-large;
+      font-weight: 600;
+      width: 10%;
+      margin-left: 1rem;
+  
+  }
+  .name2{
+      color: black(255, 255, 255);
+      font-size: xx-large;
+      font-weight: 600;
+      margin-left: 1rem;
+      
+      
+  }
+  .name3{
+      color: black;
+      font-size: xx-large;
+      font-weight: 600;
+      width: 50%;
+      margin-left: 23rem;
+      
+  }
+  
+  /* footer */
+  
+  .footer{
+    background-color: #721121;
+    margin-top: 3rem;
+    height:fit-content;
+  
+  }
+  .footer_para{
+    color: white;
+    margin-top: 3rem !important;
+  }
+  .durga_footer{
+    font-family: math;
+    font-weight: 700;
+   }
+   .list-inline-item{
+    color: white;
+   }
+  /* end footer */
+  
+  

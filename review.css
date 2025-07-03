@@ -1,0 +1,141 @@
+
+
+
+select{
+  width: 70rem;
+  border-radius: 4rem;
+  background-color: #EBECE9;
+ 
+}
+.form{
+  width: 80% !important;
+  margin-left: 6rem;
+  padding: 6rem;
+
+}
+
+
+#main{
+  background-image: url("ImageBase/photo1.png");
+  background-size: cover;
+ 
+}
+#pink{
+  background-color:#f6caca;
+
+}
+input[type=text] , input[type=email],input[type=number]{
+  border:1px solid black !important ;
+}
+#harrasment{
+  border:1px solid black !important;
+}
+#location{
+  border:1px solid black !important;
+}
+
+.head{
+  font-family: math;
+  font-weight: 700;
+  text-align: center;
+  font-size: 6rem;
+}
+
+.button{
+  background-color:white!important;
+  border-radius: 2rem !important;
+  margin-left: 2rem;
+  border:solid,3px,#721121 !important;
+  width:9rem;
+  height:5rem;
+}
+.button:hover{
+  color:white !important;
+  background-color: #721121 !important;
+}
+  
+
+
+/* footer */
+
+.footer{
+  background-color: #721121;
+ margin-top: 1rem;
+  height:fit-content;
+
+}
+.footer_para{
+  color: white;
+  margin-top: 3rem !important;
+}
+.durga_footer{
+  font-family: math;
+  font-weight: 700;
+ }
+ .list-inline-item{
+  color: white;
+ }
+/* end footer */
+
+/* images */
+
+#logo{
+  font-family:math !important;
+  font-weight: bold;
+  color:#721121;
+  
+}
+/* images end */
+
+
+/* navbar */
+.nav-item{
+margin-left: 2rem;
+}
+#navbg{
+  height:fit-content !important;
+  background-color: white;
+}
+.d-flex{
+  width:60% !important;
+  margin-left: 5% !important;
+  
+ 
+}
+.help{
+  margin-left: 10rem;
+  height:8rem;
+  width:10rem;
+  background-color: #721121;
+  color:white;
+  font-size: 20px;
+  font-family: math;
+}
+.form-control{
+  border-radius: 2rem !important;
+  background-color:white !important;
+  border:solid,white,5px!important;
+  height: 4rem !important;
+}
+.btn{
+  background-color:white!important;
+  border-radius: 2rem !important;
+  margin-left: 2rem;
+  border:solid,3px,#721121 !important;
+}
+.btn:hover{
+  color:white !important;
+  background-color: #721121 !important;
+}
+.navbar-toggler{
+  border:none !important;
+}
+#login:hover{
+  color:white !important;
+  background-color: #721121 !important;
+}
+#signup:hover{
+  color:white !important;
+  background-color: #721121 !important;
+}
+/* navbar end */

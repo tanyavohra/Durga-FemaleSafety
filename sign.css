@@ -1,0 +1,244 @@
+/* body */
+
+body {font-family: Arial, Helvetica, sans-serif;
+  background-color:#F5F6F4 !important;
+
+}
+* {box-sizing: border-box;}
+/* .content{
+  width:80% !important;
+  height: 80rem;
+
+} */
+.container{
+  width: 80% !important;
+  margin-left: 4rem !important;
+}
+
+
+
+
+/* Full-width input fields */
+
+input[type=text], input[type=password] {
+  width: 100%;
+ padding:15px;
+  margin: 5px 0 10px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  height: max-content;
+  border:1px solid black;
+  border-radius:1rem;
+}
+
+
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+/* Set a style for all buttons */
+button {
+  background-color:#721121;
+  /* color: white !important; */
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  /* width: 100%; */
+  opacity: 0.9;
+  border-radius: 1rem;
+ 
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color:gray;
+  color:black !important;
+}
+.signupbtn{
+  color:white;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+ 
+}
+#containe{
+    height: 70rem !important;
+}
+
+
+
+/* Modal Content/Box */
+.signup {
+background-color:white ;
+  height: 70rem; 
+  box-shadow:none !important;
+  outline-color: none !important;
+
+}
+
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 5rem;
+  font-weight: bold;
+  color:white;
+}
+#close{
+  color:white !important;
+}
+
+.close:hover,
+.close:focus {
+  color:white;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+/* body end */
+
+
+select{
+  width: 70rem;
+  border-radius: 4rem;
+  background-color: #EBECE9;
+}
+
+/* footer */
+
+.footer{
+  background-color: #721121;
+ 
+  height:fit-content;
+
+}
+.footer_para{
+  color: white;
+  margin-top: 3rem !important;
+}
+.durga_footer{
+  font-family: math;
+  font-weight: 700;
+ }
+ .list-inline-item{
+  color: white;
+ }
+/* end footer */
+
+/* images */
+
+#logo{
+  font-family:math !important;
+  font-weight: bold;
+  color:#721121;
+  
+}
+/* images end */
+
+
+/* navbar */
+.nav-item{
+margin-left: 2rem;
+}
+#navbg{
+  height:fit-content !important;
+  background-color: white;
+}
+#flex1{
+  width:60% !important;
+  margin-left: 5% !important;
+  
+ 
+}
+.help{
+  margin-left: 10rem;
+  height:8rem;
+  width:10rem;
+  background-color: #721121;
+  color:white;
+  font-size: 20px;
+  font-family: math;
+}
+.form-control{
+  border-radius: 2rem !important;
+  background-color: #EBECE9 !important;
+  border:solid,white,5px!important;
+  height: 4rem !important;
+}
+.btn{
+  background-color:white!important;
+  border-radius: 2rem !important;
+  margin-left: 2rem;
+  border:solid,3px,#721121 !important;
+}
+.btn:hover{
+  color:white !important;
+  background-color: #721121 !important;
+}
+.navbar-toggler{
+  border:none !important;
+}
+#login:hover{
+  color:white !important;
+  background-color: #721121 !important;
+}
+#signup:hover{
+  color:white !important;
+  background-color: #721121 !important;
+}
+/* navbar end */
+#box1{
+  width: 40% !important;
+  margin-left:2rem !important;
+  margin-right: 2px !important;
+  padding:0px !important;
+  }
+  #box2 {
+    width: 50% !important;
+    background-image: url(ImageBase/photo.jpg) !important;
+  }
+  .p-2{
+    padding:0px !important;
+    margin:0px !important;
+  }
+  
+  /* signup end */
